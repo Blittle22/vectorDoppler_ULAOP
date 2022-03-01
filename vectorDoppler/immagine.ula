@@ -1,0 +1,44 @@
+[GLOBAL]
+Name = Line_default_Immagine
+NLines = 144
+ScanType = 0
+ScanStep = 1
+YPhasing = 0
+LineOffset = -71
+
+[TXSETTINGS]
+NTX = 64
+TXFocus = 0
+TYFocus = 25
+TXAngle = 0
+TXApod = 1
+TXFreq = 6000000
+TXNC = 5
+TXAmp = 1
+TXWin = 1
+TxFromFile = 0
+TxFileName = noname
+
+[RXSETTINGS]
+NRX = 64
+RXPass = 0
+RYPass = 20
+RYMin = 10
+RYMax = 45
+RXAngle = 0
+RXApod = 1
+RXApodFactor = 1.000000
+RXApodType = 0
+RXYApod = 0
+RXFocusType = 0
+RXYFocus = 0
+RxFromFile = 0
+RxFileName = noname
+
+[RXANALOG]
+Tgc = 30,0
+
+[RXELAB]
+DemodulationFrequency = 6000000
+Ncpm = 7, 17, 26, 35
+NDec = 1, 1, 4
