@@ -1,0 +1,46 @@
+
+
+[GLOBAL]
+Name = colorFlowImage
+NLines = 64
+ScanType = Linear
+ScanStep = 1
+YPhasing = 0
+LineOffset = -32
+
+
+[TXSETTINGS]
+NTX = 64
+TXFocus = 0     //change in rt software
+TYFocus = 25    //change in rt software
+TXAngle = 0     //change in rt software
+TXApod = 0      //Rectangle apodization
+TXFreq = 5000000
+TXNC = 5
+TXAmp = 0.25
+TXWin = 1        //Hanning
+
+
+[RXSETTINGS]
+NRX = 64
+RXPass = 0
+RYPass = 25.000000
+RYMin = 10.000000
+RYMax = 40.000000
+RXAngle = 0
+RXApod = Sinc
+RXApodFactor = 1.000000
+RXApodType = 0
+RXYApod = 0
+RXFocusType = 0
+
+
+[RXANALOG]
+Tgc = 30,0  //Same for all modalities or change in software
+
+[RXELAB]
+DemodulationFrequency = 5000000
+Ncpm = 7, 17, 26, 35    //Same for all modalities
+NDec = 1, 1, 4  //Same for all modalities
+POut = 3
+

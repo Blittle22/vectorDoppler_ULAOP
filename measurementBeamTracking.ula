@@ -1,0 +1,49 @@
+
+
+[GLOBAL]
+Name = measurementBeamImage
+NLines = 64
+ScanType = Phasing
+ScanStep = 0.5
+YPhasing = 0
+
+
+[TXSETTINGS]
+NTX = 64
+TXFocus = 0     //change in rt software
+TYFocus = 25    //change in rt software
+TXAngle = 0     //change in rt software
+TXApod = 1      //Hanning apodization
+TXFreq = 5000000
+TXNC = 5
+TXAmp = 0.75
+TXWin = 1       //Hanning
+
+
+[RXSETTINGS]
+NRX = 64
+RXPass = 0
+RYPass = 25.000000
+RYMin = 10.000000
+RYMax = 40.000000
+RXAngle = 0
+RXApod = Sinc
+RXApodFactor = 1.000000
+RXApodType = 0
+RXYApod = 0
+RXFocusType = 0
+
+
+[RXANALOG]
+Tgc = 30,0  //Same for all modalities or change in software
+
+[RXELAB]
+DemodulationFrequency = 5000000
+Ncpm = 7, 17, 26, 35    //Same for all modalities
+NDec = 1, 1, 4  //Same for all modalities
+Demodulator0 = 5, 5, 7, 7, 1, 1, 4, Ft 2600 kHz, , 3500000
+Demodulator1 = 1, 1, 1, 1, 1, 1, 1, Ft 25000 kHz, , 3500000
+Demodulator2 = 9, 10, 12, 13, 1, 1, 4, Ft <1000 kHz, , 3500000
+Demodulator3 = 2, 23,  7, 42, 1, 1, 4, Ft   600 kHz, , 3500000
+POut = 3
+
