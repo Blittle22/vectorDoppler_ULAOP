@@ -38,12 +38,12 @@ RXFocusType = 0
 Tgc = 30,0  //Same for all modalities or change in software
 
 [RXELAB]
-DemodulationFrequency = 5000000
+DemodulationFrequency = 6600000
 Ncpm = 7, 17, 26, 35    //Same for all modalities
 NDec = 1, 1, 4  //Same for all modalities
-Demodulator0 = 5, 5, 7, 7, 1, 1, 4, Ft 2600 kHz, , 3500000
-Demodulator1 = 1, 1, 1, 1, 1, 1, 1, Ft 25000 kHz, , 3500000
-Demodulator2 = 9, 10, 12, 13, 1, 1, 4, Ft <1000 kHz, , 3500000
-Demodulator3 = 2, 23,  7, 42, 1, 1, 4, Ft   600 kHz, , 3500000
+Demodulator0 = 5, 5, 7, 7, 1, 1, 4, Ft 2600 kHz, , 6600000
+Demodulator1 = 1, 1, 1, 1, 1, 1, 1, Ft 25000 kHz, , 6600000
+Demodulator2 = 9, 10, 12, 13, 1, 1, 4, Ft <1000 kHz, , 6600000
+Demodulator3 = 2, 23,  7, 42, 1, 1, 4, Ft   600 kHz, , 6600000
 POut = 3
 
